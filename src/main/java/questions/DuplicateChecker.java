@@ -2,6 +2,8 @@ package questions;
 
 public class DuplicateChecker {
 
+    // Execution time: O(n)
+    // Space usage: O(k)
     public boolean containsDuplicates(int[] sequence) {
         if (sequence == null)
             return false;

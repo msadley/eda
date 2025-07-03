@@ -1,9 +1,11 @@
 package questions;
 
 public class FindExtraElement {
+
+    // Execution time: O(n)
+    // Space usage: O(k)
     public int find(int[] a, int[] b) {
-        // Execution Time: 4n
-        // Memory Usage: K + |w|
+
         int[] larger, smaller;
 
         if (a.length > b.length) {

@@ -2,6 +2,8 @@ package questions;
 
 public class MergeSortedArrays {
 
+    // Execution time: O(n)
+    // Space usage: O(N^a + N^b)
     public int[] merge(int[] a, int[] b) {
         int[] v = new int[a.length + b.length];
 
